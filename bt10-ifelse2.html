@@ -1,0 +1,35 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tiền điện?</title>
+</head>
+<body>
+
+
+<script>
+    // xem 3 cạnh có phải là tam giác không /**/
+    let sodien = +prompt('nhập số điện dùng trong tháng')
+    let giadien = sodien * 2000
+
+    if (sodien > 0) {
+        document.write('Giá điện tháng này là = ' + giadien + "VND")
+    } else if (sodien > 100) {
+        giadien = sodien * 2222
+        document.write('Giá điện tháng này là = ' + giadien + "VND")
+    } else if (sodien > 200) {
+        giadien = sodien * 2400
+        document.write('Giá điện tháng này là = ' + giadien + "VND")
+
+    } else {
+        giadien = sodien * 2600
+        document.write('Giá điện tháng này là = ' + giadien + "VND")
+    }
+
+
+</script>
+</body>
+</html>
